@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fstDay-common" />
+        <module name="fstDay-dao" />
+        <module name="fstDay-model" />
+        <module name="fstDay-service" />
+        <module name="fstDay-serviceImpl" />
+        <module name="fstDay-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fstDay" target="1.8" />
+      <module name="fstDay-common" target="1.8" />
+      <module name="fstDay-dao" target="1.8" />
+      <module name="fstDay-model" target="1.8" />
+      <module name="fstDay-service" target="1.8" />
+      <module name="fstDay-serviceImpl" target="1.8" />
+      <module name="fstDay-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

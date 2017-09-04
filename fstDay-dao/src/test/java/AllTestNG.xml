@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+
+
+    <test name="Default Test">
+        <packages>
+            <package name="com.rabbit.first.test.dao"/>
+        </packages>
+    </test> <!-- Default Test -->
+</suite> <!-- Default Suite -->

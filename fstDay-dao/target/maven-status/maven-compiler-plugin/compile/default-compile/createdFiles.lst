@@ -1,0 +1,6 @@
+com/rabbit/first/dao/common/ZlBaseDaoImpl.class
+com/rabbit/first/dao/common/ZlGenericDAOImpl.class
+com/rabbit/first/dao/appstore/ZlAppDAO.class
+com/rabbit/first/dao/common/ZlGenericDAO.class
+com/rabbit/first/dao/common/ZlBaseDao.class
+com/rabbit/first/dao/appstore/ZlAppDAOImpl.class

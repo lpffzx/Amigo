@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="fstDay-web:war">
+    <output-path>$PROJECT_DIR$/fstDay-web/target</output-path>
+    <root id="archive" name="fstDay-web.war">
+      <element id="artifact" artifact-name="fstDay-web:war exploded" />
+    </root>
+  </artifact>
+</component>

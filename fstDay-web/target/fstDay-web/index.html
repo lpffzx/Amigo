@@ -1,0 +1,285 @@
+<html>
+<head>
+    <title>hoge</title>
+</head>
+<body>
+file upload
+<form method="post" action="rs/file/save/" enctype="multipart/form-data">
+    <input type="file" name="file" size="50" />
+    <input type="text" name="appId" value="1" />
+    <p><input type="submit" value="Send it!"></p>
+</form>
+<br>
+<br>
+Upload--local
+<form method="post" action="rs/cms/duiba/getFullUserInfo" enctype="multipart/form-data" >
+    <input type="file" name="file" size="50" />
+    <p><input type="submit" value="Send it!"></p>
+</form>
+<br>
+<br>
+Upload--test
+<form method="post" action="https://dev.asus.ahasou.com/zenlife_app/cms/duiba/getFullUserInfo" enctype="multipart/form-data">
+    <input type="file" name="file" size="50" />
+    <p><input type="submit" value="Send it!"></p>
+</form>
+<br>
+
+Upload--online
+<form method="post" action="https://shengshier.asus.com.cn/zenlife_app/cms/duiba/getFullUserInfo" enctype="multipart/form-data">
+    <input type="file" name="file" size="50" />
+    <p><input type="submit" value="Send it!"></p>
+</form>
+<br>
+<br>
+ICON Upload
+<form method="post" action="rs/image/save/" enctype="multipart/form-data">
+    <input type="file" name="file" size="50" />
+    <input type="text" name="appId" value="1" />
+    <input type="text" name="type" value="icon" />
+    <p><input type="submit" value="Send it!"></p>
+</form>
+<br>
+<br>
+Backup upload Test
+<form method="post" action="rs/backup/up/" enctype="multipart/form-data">
+    <input type="file" name="file" size="50" />
+    <input type="text" name="uid" value="testUser" />
+    <input type="text" name="backupId" value="backup1" />
+    <input type="text" name="device" value="testDevice" />
+    <input type="text" name="deviceName" value="12345678" />
+    <input type="text" name="type" value="phone" />
+    <input type="text" name="token" value="token" />
+    <p><input type="submit" value="Send it!"></p>
+</form>
+<br>
+<br>
+PC Backup upload Test
+<form method="post" action="rs/pc/backup/up/" enctype="multipart/form-data">
+    <input type="file" name="file" size="50" />
+    <input type="text" name="uid" value="testUser" />
+    <input type="text" name="backupId" value="backup1" />
+    <input type="text" name="device" value="testDevice" />
+    <input type="text" name="deviceName" value="12345678" />
+    <input type="text" name="type" value="phone" />
+    <input type="text" name="token" value="token" />
+    <p><input type="submit" value="Send it!"></p>
+</form>
+<br>
+<br>
+Upload Complete Test
+<form method="post" action="rs/backup/up/ok" enctype="multipart/form-data">
+    <input type="text" name="uid" value="testUser" />
+    <input type="text" name="backupId" value="backup1" />
+    <input type="text" name="token" value="token" />
+    <p><input type="submit" value="Send it!"></p>
+</form>
+<br>
+<br>
+Backup download Test
+<form method="get" action="rs/backup/dl/" enctype="multipart/form-data">
+    <input type="text" name="uid" value="testUser" />
+    <input type="text" name="type" value="phone" />
+    <input type="text" name="token" value="token" />
+    <p><input type="submit" value="Get it!"></p>
+</form>
+<br>
+<br>
+Get User's Backup Info Test
+<form method="get" action="rs/backup/get" enctype="multipart/form-data">
+    <input type="text" name="uid" value="testUser" />
+    <p><input type="submit" value="get!"></p>
+</form>
+<br>
+<br>
+<br>
+Feedback upload Test
+<form method="post" action="rs/feedback/up" enctype="multipart/form-data" accept-charset="UTF-8">
+    <input type="file" name="file" size="50" />
+    <input type="text" name="uid" value="testUser" />
+    <input type="text" name="token" value="token" />
+    <input type="text" name="imageId" value="imageId" />
+    <input type="text" name="type" value="brand" />
+    <input type="text" name="imagePath" value="/sdcard/shengshier" />
+    <input type="text" name="title" value="title" />
+    <p><input type="submit" value="Send it!"></p>
+</form>
+<br>
+<br>
+Feedback list Test
+<form method="get" action="rs/feedback/list">
+    <input type="file" name="file" size="50" />
+    <input type="text" name="uid" value="testUser" />
+    <input type="text" name="token" value="token" />
+    <p><input type="submit" value="Send it!"></p>
+</form>
+<br>
+<br>
+Feedback get Test
+<form method="get" action="rs/feedback/get">
+    <input type="file" name="file" size="50" />
+    <input type="text" name="uid" value="testUser" />
+    <input type="text" name="token" value="token" />
+    <input type="text" name="feedbackId" value="feedbackId" />
+    <p><input type="submit" value="Send it!"></p>
+</form>
+<br>
+<br>
+Icon upload Test
+<form method="post" action="rs/store/upIcon" enctype="multipart/form-data">
+    <input type="file" name="file" size="50" />
+    <input type="text" name="id" value="categoryId" />
+    <p><input type="submit" value="Send it!"></p>
+</form>
+<br>
+<br>
+----------------------------------------TEST SERVER-----------------------
+<br>
+Backup upload Test
+<form method="post" action="https://dev.wenhaoer.com/zenlife_app/backup/up" enctype="multipart/form-data">
+    <input type="file" name="file" size="50" />
+    <input type="text" name="uid" value="testUser" />
+    <input type="text" name="backupId" value="backup1" />
+    <input type="text" name="device" value="testDevice" />
+    <input type="text" name="deviceName" value="12345678" />
+    <input type="text" name="type" value="phone" />
+    <p><input type="submit" value="Send it!"></p>
+</form>
+<br>
+<br>
+Upload Complete Test
+<form method="post" action="https://dev.wenhaoer.com/zenlife_app/backup/up/ok" enctype="multipart/form-data">
+    <input type="text" name="uid" value="testUser" />
+    <input type="text" name="backupId" value="backup1" />
+    <p><input type="submit" value="Send it!"></p>
+</form>
+<br>
+<br>
+Backup download Test
+<form method="get" action="https://dev.wenhaoer.com/zenlife_app/backup/dl" enctype="multipart/form-data">
+    <input type="text" name="uid" value="testUser" />
+    <input type="text" name="type" value="phone" />
+    <p><input type="submit" value="Get it!"></p>
+</form>
+<br>
+<br>
+Get User's Backup Info Test
+<form method="get" action="https://dev.wenhaoer.com/zenlife_app/backup/get" enctype="multipart/form-data">
+    <input type="text" name="uid" value="testUser" />
+    <p><input type="submit" value="get!"></p>
+</form>
+<br>
+<br>
+Feedback upload Test
+<form method="post" action="https://dev.wenhaoer.com/zenlife_app/feedback/up" enctype="multipart/form-data">
+    <input type="file" name="file" size="50" />
+    <input type="text" name="uid" value="testUser" />
+    <input type="text" name="token" value="token" />
+    <input type="text" name="imageId" value="imageId" />
+    <p><input type="submit" value="Send it!"></p>
+</form>
+<br>
+<br>
+Feedback list Test
+<form method="get" action="https://dev.wenhaoer.com/zenlife_app/feedback/list">
+    <input type="file" name="file" size="50" />
+    <input type="text" name="uid" value="testUser" />
+    <input type="text" name="token" value="token" />
+    <p><input type="submit" value="Send it!"></p>
+</form>
+<br>
+<br>
+Feedback get Test
+<form method="get" action="https://dev.wenhaoer.com/zenlife_app/feedback/get">
+    <input type="file" name="file" size="50" />
+    <input type="text" name="uid" value="testUser" />
+    <input type="text" name="token" value="token" />
+    <input type="text" name="feedbackId" value="feedbackId" />
+    <p><input type="submit" value="Send it!"></p>
+</form>
+<br>
+<br>
+App Click Test`
+<form method="post" action="rs/appCnt/click" enctype="multipart/form-data">
+    <input type="text" name="packageName" size="50"/>
+    <input type="text" name="bookmarkId">
+    <input type="text" name="category">
+    <input type="text" name="device">
+    <p><input type="submit" value="Click it!"></p>
+</form>
+<br>
+<br>
+IMAGE Upload--local
+<form method="post" action="rs/cms/imageUpload/upload/" enctype="multipart/form-data">
+    <input type="file" name="file" size="50" />
+    <p><input type="submit" value="Send it!"></p>
+</form>
+<br>
+<br>
+Image UploadWithFolder--test
+<form method="post" action="https://service-shengshier.asus.com.cn/zenlife_origin/cms/imageUpload/uploadWithFolder/" enctype="multipart/form-data">
+    <input type="file" name="file" size="50" />
+    <input type="text" name="uploadFolder">
+    <p><input type="submit" value="Send it!"></p>
+</form>
+<br>
+<br>
+File UploadWithFolder--local
+<form method="post" action="rs/cms/fileUpload/uploadWithFolder/" enctype="multipart/form-data">
+    <input type="file" name="file" size="50" />
+    <input type="text" name="uploadFolder">
+    <p><input type="submit" value="Send it!"></p>
+</form>
+<br>
+<br>
+File readTxt--local
+<form method="post" action="rs/cms/fileRead/read" enctype="multipart/form-data">
+    <input type="file" name="file" size="50" />
+    <!--<input type="text" name="uploadFolder">-->
+    <p><input type="submit" value="Send it!"></p>
+</form>
+<br>
+<br>
+IMAGE Upload--test
+<form method="post" action="https://dev.asus.ahasou.com/zenlife_app/cms/imageUpload/upload/" enctype="multipart/form-data">
+    <input type="file" name="file" size="50" />
+    <p><input type="submit" value="Send it!"></p>
+</form>
+<br>
+<br>
+IMAGE Upload--formal
+<form method="post" action="https://shengshier.asus.com.cn/zenlife_app/cms/imageUpload/upload/" enctype="multipart/form-data">
+    <input type="file" name="file" size="50" />
+    <p><input type="submit" value="Send it!"></p>
+</form>
+ZENLIFE HEAD IMG UPLOAD
+<form method="post" action="rs/zenlifeUser/headImg?uid=38c64fa4ac98d79ee10a2aaa93193491&token=9e062f3e26fc8eed7cf82030e0aee30e" enctype="multipart/form-data">
+    <input type="file" name="file" size="50"/>
+    <p><input type="submit" value="Send it!"></p>
+</form>
+
+ZENLIFE HEAD IMG UPLOAD 4 PC
+<form method="post" action="rs/zenlifeUser/headImg4PC?uid=1&token=2a98ac5845ae8f5333709b87912d8d72&x=10&y=10&w=20&h=20" enctype="multipart/form-data">
+    <input type="file" name="file" size="50"/>
+    <p><input type="submit" value="Send it!"></p>
+</form>
+
+ZENLIFE HEAD IMG UPLOAD 4 REGISTER
+<form method="post" action="rs/zenlifeUser/headImg4Register?x=10&y=10&w=20&h=20" enctype="multipart/form-data">
+    <input type="file" name="file" size="50"/>
+    <p><input type="submit" value="Send it!"></p>
+</form>
+
+Install file Upload
+<form method="post" action="rs/appInstallUse/saveInstallFile?imei=1&device=deivce1&longitude=60.9&latitude=82.5&city=上海" enctype="multipart/form-data">
+    <input type="file" name="file" size="50"/>
+    <p><input type="submit" value="Send it!"></p>
+</form>
+
+Use file Upload
+<form method="post" action="rs/appInstallUse/saveUseFile?imei=1&device=deivce1&longitude=60.9&latitude=82.5&city=上海" enctype="multipart/form-data">
+    <input type="file" name="file" size="50"/>
+    <p><input type="submit" value="Send it!"></p>
+</form>
+</body>
+</html>

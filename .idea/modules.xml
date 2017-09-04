@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fstDay.iml" filepath="$PROJECT_DIR$/fstDay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fstDay-common/fstDay-common.iml" filepath="$PROJECT_DIR$/fstDay-common/fstDay-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fstDay-dao/fstDay-dao.iml" filepath="$PROJECT_DIR$/fstDay-dao/fstDay-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fstDay-model/fstDay-model.iml" filepath="$PROJECT_DIR$/fstDay-model/fstDay-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fstDay-service/fstDay-service.iml" filepath="$PROJECT_DIR$/fstDay-service/fstDay-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fstDay-serviceImpl/fstDay-serviceImpl.iml" filepath="$PROJECT_DIR$/fstDay-serviceImpl/fstDay-serviceImpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fstDay-web/fstDay-web.iml" filepath="$PROJECT_DIR$/fstDay-web/fstDay-web.iml" />
+    </modules>
+  </component>
+</project>
