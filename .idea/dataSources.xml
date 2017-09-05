@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+  <component name="DataSourceManagerImpl" format="xml" hash="3378060031">
     <data-source source="LOCAL" name="zenlife_2017_06_21@localhost" uuid="717bd5a9-9c94-4fe2-968a-078eea3ed053">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
@@ -14,12 +14,11 @@
         <property name="characterSetResults" value="utf8" />
         <property name="yearIsDateType" value="false" />
       </driver-properties>
+      <libraries />
     </data-source>
     <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="94d68c96-c9dd-4841-89cd-7b3193bd762f">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>$PROJECT_DIR$/fstDay-model/src/main/resources/hibernate.cfg.xml</remarks>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/zenlife_2017_06_21</jdbc-url>
       <driver-properties>
@@ -30,6 +29,7 @@
         <property name="characterSetResults" value="utf8" />
         <property name="yearIsDateType" value="false" />
       </driver-properties>
+      <libraries />
     </data-source>
   </component>
 </project>
