@@ -44,6 +44,8 @@
                 <maven.jdbc.url>jdbc:mysql://localhost:3306/amigo?zeroDateTimeBehavior=convertToNull&amp;useUnicode=true&amp;characterEncoding=utf-8</maven.jdbc.url>
                 <maven.jdbc.username>root</maven.jdbc.username>
                 <maven.jdbc.password>password</maven.jdbc.password>
+                <maven.jpa.show.sql>true</maven.jpa.show.sql>
+                <maven.jpa.genarate.table>true</maven.jpa.genarate.table>
             </properties>
         </profile>
 
@@ -53,6 +55,8 @@
                 <maven.jdbc.url>jdbc:mysql://localhost:3306/mydb?zeroDateTimeBehavior=convertToNull&amp;useUnicode=true&amp;characterEncoding=utf-8</maven.jdbc.url>
                 <maven.jdbc.username>root</maven.jdbc.username>
                 <maven.jdbc.password>zh593190</maven.jdbc.password>
+                <maven.jpa.show.sql>true</maven.jpa.show.sql>
+                <maven.jpa.genarate.table>true</maven.jpa.genarate.table>
             </properties>
         </profile>
 
@@ -62,6 +66,8 @@
                 <maven.jdbc.url>jdbc:mysql://localhost:3306/amigo?zeroDateTimeBehavior=convertToNull&amp;useUnicode=true&amp;characterEncoding=utf-8</maven.jdbc.url>
                 <maven.jdbc.username>kevin</maven.jdbc.username>
                 <maven.jdbc.password>kevin_123</maven.jdbc.password>
+                <maven.jpa.show.sql>true</maven.jpa.show.sql>
+                <maven.jpa.genarate.table>true</maven.jpa.genarate.table>
             </properties>
         </profile>
 
@@ -71,6 +77,8 @@
                 <maven.jdbc.url></maven.jdbc.url>
                 <maven.jdbc.username></maven.jdbc.username>
                 <maven.jdbc.password></maven.jdbc.password>
+                <maven.jpa.show.sql>true</maven.jpa.show.sql>
+                <maven.jpa.genarate.table>true</maven.jpa.genarate.table>
             </properties>
         </profile>
     </profiles>
