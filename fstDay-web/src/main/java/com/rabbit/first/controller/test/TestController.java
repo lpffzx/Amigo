@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.core.Context;
-import javax.ws.rs.core.UriInfo;
 
 
 @RestController
@@ -23,7 +22,7 @@ public class TestController extends Base4ClientController {
     TestService testService;
 
     @RequestMapping(value = "/get", method = RequestMethod.GET, produces = UTF8MediaType.JSON)
-    public CommonResult createFamily(@Context UriInfo ui, @Context HttpServletRequest request) throws CommonException {
+    public CommonResult createFamily(@Context HttpServletRequest request) throws CommonException {
         CommonResult result = CommonResult.success(testService.get());
         return result;
     }
