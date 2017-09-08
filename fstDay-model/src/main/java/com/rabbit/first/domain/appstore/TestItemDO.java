@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.sql.Timestamp;
 
 @Entity
-@Table(name = "item", schema = "mydb", catalog = "")
+@Table(name = "item", catalog = "")
 public class TestItemDO {
     @Version
     protected long version;

@@ -8,7 +8,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 @Entity
-@Table(name = "lifepay_user", schema = "mydb")
+@Table(name = "lifepay_user")
 public class LifePayUserDO implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

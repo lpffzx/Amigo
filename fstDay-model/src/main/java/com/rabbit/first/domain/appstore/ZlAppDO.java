@@ -13,7 +13,7 @@ import java.sql.Timestamp;
 @Entity
 @OptimisticLocking(type = OptimisticLockType.ALL)
 @DynamicUpdate
-@Table(name = "zl_app", schema = "mydb")
+@Table(name = "zl_app")
 public class ZlAppDO {
     private int id;
     private String adsType;

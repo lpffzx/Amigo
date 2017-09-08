@@ -9,7 +9,7 @@ import java.util.Date;
 import java.util.Set;
 
 @Entity
-@Table(name = "lifepay_family", schema = "mydb")
+@Table(name = "lifepay_family")
 public class LifePayFamilyDO implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
