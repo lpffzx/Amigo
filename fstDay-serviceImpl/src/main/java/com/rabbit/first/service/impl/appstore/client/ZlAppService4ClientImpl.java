@@ -47,7 +47,7 @@ public class ZlAppService4ClientImpl implements ZlApp4ClientService {
 
     @Override
     public void test() {
-        Integer id = appDAO.step1();
+        final Integer id = appDAO.step1();
         appDAO.step2(id);
         try {
             Executors.newSingleThreadExecutor().submit(new Callable<Object>() {

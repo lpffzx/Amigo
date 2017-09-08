@@ -29,7 +29,7 @@
     </distributionManagement>
 
     <properties>
-        <java-version>1.8</java-version>
+        <java-version>1.7</java-version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <org.springframework-version>4.3.9.RELEASE</org.springframework-version>
         <!--<org.slf4j-version>1.7.10</org.slf4j-version>-->
@@ -59,9 +59,9 @@
         <profile>
             <id>test</id>
             <properties>
-                <maven.jdbc.url></maven.jdbc.url>
-                <maven.jdbc.username></maven.jdbc.username>
-                <maven.jdbc.password></maven.jdbc.password>
+                <maven.jdbc.url>jdbc:mysql://localhost:3306/amigo?zeroDateTimeBehavior=convertToNull&amp;useUnicode=true&amp;characterEncoding=utf-8</maven.jdbc.url>
+                <maven.jdbc.username>kevin</maven.jdbc.username>
+                <maven.jdbc.password>kevin_123</maven.jdbc.password>
             </properties>
         </profile>
 
